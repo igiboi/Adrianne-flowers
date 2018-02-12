@@ -1,0 +1,60 @@
+section{
+    position:relative;
+    width:650px;
+    margin:50px auto;
+    height: 10px;
+}
+nav{
+    width:100%;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    width:200px;
+    text-align:center;
+    font-family: 'Noto Sans';
+    border: 5px dashed rgba(255,255,255, 0);
+    color: ;
+    padding:;
+    margin:;
+    cursor:pointer;
+    transition:all .2s;
+    -webkit-transition:all .2s;
+}
+
+nav ul{
+    border: 1px ;
+    position:absolute;
+    width:20;
+    padding:0;
+    z-index:100;
+}
+nav div{
+    position:absolute;
+    left:0;
+    top:;
+    background: ;
+    width:160px;
+    height:40px;
+    z-index:9;
+}
+nav.active{
+    color:pink;
+}
+
+nav ul li:hover{
+    /*border:1px dashed #fff;*/
+    background:pink;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+
+
+a{
+
+    color: gray;
+
+
+}
